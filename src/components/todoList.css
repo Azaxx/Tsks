@@ -1,0 +1,84 @@
+
+.todo-list-main {
+    height: 45%;
+    background-color: rgb(89, 134, 223);
+    margin-top: -50px;
+}
+.todo-header {
+    text-align: right;
+    margin-right: 109px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 550; /* жирность */
+    color:white;
+}
+.todo-header2{
+    text-align: right;
+    margin-right: 109px;
+    color: aliceblue;
+}
+.todo-list-body {
+    padding:6%; 
+}
+.inputvalue {
+    font-size: 20px;
+    border-radius: 10px; /* округленность */
+    display: block; 
+    width: 89%; /* длина инпута */
+    border: 2px solid rgb(104, 146, 231);
+    padding:10px 0px 10px 20px;
+    margin-left:20px;
+    color: rgb(104, 146, 231);
+}
+input::-webkit-input-placeholder { color: rgba(125, 146, 187,0.5); }
+.btn{
+    font-size: 20px;
+    float: right;
+    margin-right: 109px;
+    margin-top: 10px;
+    padding:9px 23px 9px 23px;
+    background-color:rgb(104, 146, 231); 
+    font-size: 16px;
+    border-radius:7px;
+    color: white;
+    border: 2px solid rgb(104, 146, 231);
+}
+.btn:hover{
+    background-color: rgb(200, 226, 226);
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.letsget {
+    color: rgb(124, 122, 122);
+    text-align: center;
+    font-size: 35px;
+    margin-top:-10px;
+}
+.line{
+    border: 1px solid rgba(125, 146, 187,0.4);
+    width: 70px;
+   margin-left: 550px;
+   margin-top: -30px;
+   margin-bottom: 30px;
+}
+.btndone{
+    border: 2px solid rgb(104, 146, 231); 
+}
+.btndonesize {
+    padding: 7px;
+    margin:4px 0px 4px 0px;
+    border-radius: 1px;
+    /* background-color: rgb(123, 153, 214); */
+    border: 2px solid rgb(104, 146, 231);
+    margin-right: 4px;
+}
+.btndonesize:hover{
+background-color: rgb(104, 146, 231);
+color:white;
+}
+.footerText {
+    color: rgb(168, 163, 163);
+    text-align: center;
+    font-size: 17px;  
+}

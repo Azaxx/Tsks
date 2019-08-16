@@ -1,0 +1,25 @@
+.all-rout{
+    display: flex;
+    justify-content: center;
+}
+.li-rout{
+ display: inline;
+ justify-content: center;
+ border:2px solid white;
+ padding: 10px 10px 0px 10px;
+ margin: 10px 10px 0px 10px;
+ color: rgba(0, 0, 0, 0.5);
+ background-color: white;
+ border: 1px solid rgb(173, 169, 169);
+ font-size:18px;
+ padding:8px 22px 8px 22px;
+ border-radius: 6px;
+};
+ .all-rout{
+     display: flex;
+     justify-content: center
+};
+.li-input{
+    width: 50%;
+
+}
